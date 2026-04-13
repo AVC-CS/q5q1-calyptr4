@@ -6,12 +6,13 @@ int main()
     int n;
     cout << "Input a value." << endl;
     cin >> n;
-    for (int i=0; i<=n; i++){
-        char A;
-        
-        for (int j=0; j<=n; j++){
-
+    for (int i=0; i<n; i++){
+        char letter = 64;
+        for (int j=0; j<=i; j++){
+            letter += 1;
+            cout << letter << " ";
         }
+        cout << endl;
     }
     // TODO: outer loop for each row
 
