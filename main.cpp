@@ -4,8 +4,15 @@ using namespace std;
 int main()
 {
     int n;
-    // TODO: ask user for input
+    cout << "Input a value." << endl;
+    cin >> n;
+    for (int i=0; i<=n; i++){
+        char A;
+        
+        for (int j=0; j<=n; j++){
 
+        }
+    }
     // TODO: outer loop for each row
 
         // TODO: inner loop to print letters for this row
