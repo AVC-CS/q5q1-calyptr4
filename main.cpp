@@ -4,13 +4,16 @@ using namespace std;
 int main()
 {
     int n;
-    cout << "Input a value." << endl;
+    cout << "Input:" << endl;
     cin >> n;
     for (int i=0; i<n; i++){
         char letter = 64;
         for (int j=0; j<=i; j++){
             letter += 1;
-            cout << letter << " ";
+            cout << letter;
+            if (j<i){
+                cout << " ";
+                }
         }
         cout << endl;
     }
